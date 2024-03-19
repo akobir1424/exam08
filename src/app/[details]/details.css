@@ -1,0 +1,45 @@
+.imgg {
+  width: 521px;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.detailst {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 40px;
+}
+.details__right {
+  margin-top: 15px;
+  width: 521px;
+  height: 600px;
+  margin-left: 20px;
+  padding: 40px;
+  gap: 40px;
+}
+h1 {
+  width: Hug (281px) px;
+  height: Hug (89px) px;
+  top: 40px;
+  left: 40px;
+  gap: 13px;
+  opacity: 0px;
+  margin-top: 20px;
+}
+.info1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.pilus {
+  display: flex;
+  gap: 30px;
+}
+button{
+    margin-top: 50px;
+    background-color: rgb(6, 6, 101);
+    padding: 20px;
+    color:white;
+}

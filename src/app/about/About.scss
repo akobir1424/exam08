@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.studios {
+  &__title {
+    max-width: 700px;
+    color: #2a254b;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin: 70px auto;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .studios {
+    &__title {
+      max-width: 600px;
+      font-size: 30px;
+      margin: 60px auto;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .studios {
+    &__title {
+      max-width: 600px;
+      font-size: 26px;
+      margin: 50px auto;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .studios {
+    &__title {
+      max-width: 500px;
+      font-size: 24px;
+      margin: 40px auto;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .studios {
+    &__title {
+      max-width: 350px;
+      font-size: 22px;
+      margin: 20px auto;
+    }
+  }
+}
+
+.inputAbout {
+
+  padding: 25px;
+  &__wrapper {
+    background-image: url(../../assets/png/about_input_img.png);
+    text-align: center;
+    padding: 68px 0px;
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 50.4px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  &__plc {
+    background-color: #f9f9f9;
+    padding: 12px 15px;
+    outline: none;
+    border-radius: 8px 0px 0px 8px;
+  }
+  &__btn {
+    margin-top: 70px;
+    background-color: #2a254b;
+    padding: 12px 15px;
+    border-radius: 0px 8px 8px 0px;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .inputAbout {
+    &__title {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+    &__btn {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .inputAbout {
+    &__title {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+    &__plc {
+      border-radius: 8px;
+    }
+    &__btn {
+      border-radius: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .inputAbout {
+    &__title {
+      font-size: 18px;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+    &__plc {
+      border-radius: 8px;
+    }
+    &__btn {
+      border-radius: 8px;
+    }
+  }
+}
